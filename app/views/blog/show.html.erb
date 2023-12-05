@@ -1,0 +1,6 @@
+<h3><%= @blog.title %></h3>
+<p><%= @blog.content %></p>
+
+<%= button_to 'Remove Blog', delete_blog_path, method: 'delete' %>
+<br/>
+<h5><%= link_to 'Back to Blogs', blogs_path %></h5>
